@@ -9,4 +9,5 @@ const funcion = ()=> {
 
 
 router.use('/category1' , funcion)
+
 export default router;

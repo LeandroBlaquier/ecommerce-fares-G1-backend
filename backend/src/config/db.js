@@ -18,7 +18,7 @@ const dataDb = new mongoose.Schema({
 export const categories = new mongoose.model('categories',dataDb)
 
 categories.create({
-    category1 : 'carnes'
+  category1 : 'carnes',
 })
 
 
